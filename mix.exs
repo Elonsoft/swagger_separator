@@ -4,7 +4,7 @@ defmodule SwaggerSeparator.MixProject do
   def project do
     [
       app: :swagger_separator,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -21,7 +21,7 @@ defmodule SwaggerSeparator.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_swagger, ">= 0.8"}
+      {:phoenix_swagger, ">= 0.8.0"}
     ]
   end
 end
